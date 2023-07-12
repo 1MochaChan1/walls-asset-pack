@@ -1,0 +1,24 @@
+{
+  "name": "com.unity.wallsassetpack",
+  "version": "0.0.0",
+  "displayName": "Walls Asset Pack",
+  "description": "Assets used in the game Walls.",
+  "unity": "2020.3",
+  "unityRelease": "41f1",
+  "keywords": [
+    "2D",
+    "Platformer",
+    "Asset Pack",
+    "Side Scroller",
+    "Casual",
+    "Shaders"
+  ],
+  "author": {
+    "name": "Girl Power Talk",
+    "email": "danielchettiar@girlpowertalk.com",
+    "url": "https://www.girlpowertalk.com"
+  },
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "10.10.0"
+  }
+}

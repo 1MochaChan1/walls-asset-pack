@@ -557,7 +557,7 @@
     },
     "m_Name": "GlowColor",
     "m_DefaultReferenceName": "Color_2678401dac364e109957349a0ae4e221",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_GlowColor",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
