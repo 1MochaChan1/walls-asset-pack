@@ -177,14 +177,6 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "com.unity.wallsassetpack": {
-      "version": "file:WallsAssetPack",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.render-pipelines.universal": "10.10.0"
-      }
-    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,

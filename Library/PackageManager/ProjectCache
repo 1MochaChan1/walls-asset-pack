@@ -13,18 +13,10 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638246051331293756
-    m_Hash: 3859378215
+      ticks: 638251725927105842
+    m_Hash: 1701221714
 m_EmbeddedPackageManifests:
-  m_ManifestsStatus:
-    D:/4_Projects/2_GameDev/1_Unity/Walls Asset Pack/Packages/WallsAssetPack/package.json:
-      m_FilePath: D:/4_Projects/2_GameDev/1_Unity/Walls Asset Pack/Packages/WallsAssetPack/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638246051322900038
-      m_Hash: 820385633
+  m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
@@ -2902,80 +2894,6 @@ m_PackageAssets:
       - name: com.unity.modules.subsystems
         version: 1.0.0
       keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 0
-      repository:
-        type: 
-        url: 
-        revision: 
-        path: 
-    - packageId: com.unity.wallsassetpack@file:D:\4_Projects\2_GameDev\1_Unity\Walls
-        Asset Pack\Packages\WallsAssetPack
-      testable: 1
-      isDirectDependency: 1
-      version: 0.0.0
-      source: 3
-      resolvedPath: D:\4_Projects\2_GameDev\1_Unity\Walls Asset Pack\Packages\WallsAssetPack
-      assetPath: Packages/com.unity.wallsassetpack
-      name: com.unity.wallsassetpack
-      displayName: Walls Asset Pack
-      author:
-        name: Girl Power Talk
-        email: danielchettiar@girlpowertalk.com
-        url: https://www.girlpowertalk.com
-      category: 
-      type: 
-      description: Assets used in the game Walls.
-      status: 4
-      errors: []
-      versions:
-        all: []
-        compatible: []
-        verified: 
-      dependencies:
-      - name: com.unity.render-pipelines.universal
-        version: 10.10.0
-      resolvedDependencies:
-      - name: com.unity.render-pipelines.universal
-        version: 10.10.0
-      - name: com.unity.mathematics
-        version: 1.1.0
-      - name: com.unity.render-pipelines.core
-        version: 10.10.0
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.unity.modules.physics
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      - name: com.unity.shadergraph
-        version: 10.10.0
-      - name: com.unity.searcher
-        version: 4.3.2
-      keywords:
-      - 2D
-      - Platformer
-      - Asset Pack
-      - Side Scroller
-      - Casual
-      - Shaders
       registry:
         id: main
         name: 
