@@ -1,0 +1,27 @@
+{"packages" : {
+"261654" : {
+"project_path" : null, 
+"icon_url" : "\/\/assetstorev1-prd-cdn.unity3d.com\/key-image\/2119e3c8-c175-4629-a17f-6746075b9902.png", 
+"root_guid" : null, 
+"status" : "draft", 
+"name" : "Walls Game - 2D Asset Pack", 
+"first_published_at" : null, 
+"is_complete_project" : false, 
+"preview_url" : "https:\/\/www.assetstore.unity3d.com\/#!\/preview\/261654\/836306", 
+"version_name" : "1.0.0", 
+"root_path" : null, 
+"assetbundles" : [], 
+"id" : "836306", 
+"extra_info" : {
+"category_info" : {
+"id" : "53", 
+"name" : "2D\/Textures & Materials"
+}, 
+"modified" : "2023-07-26 03:31:02", 
+"size" : null
+}
+}
+}, "status" : "ok", "publisher" : {
+"name" : "Lenidev", 
+"id" : "88917"
+}}

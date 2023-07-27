@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Victorian.unity
+- path: Assets/Lenidev/Walls Game - 2D Asset Pack/Sample.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

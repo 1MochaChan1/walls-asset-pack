@@ -1,0 +1,21 @@
+{"ActiveWorkflow" : "FolderWorkflow", "FolderWorkflow" : {
+"mainPath" : {
+"path" : "Assets\/Lenidev\/Walls Game - 2D Asset Pack", 
+"guid" : "0491719570c6bae4db127dd646328942"
+}, 
+"extraPaths" : [], 
+"dependencies" : true, 
+"dependenciesNames" : ["com.unity.render-pipelines.universal", "com.unity.modules.vehicles"]
+}, "UnitypackageWorkflow" : {
+"mainPath" : {
+"path" : "", 
+"guid" : ""
+}, 
+"extraPaths" : []
+}, "HybridPackageWorkflow" : {
+"mainPath" : {
+"path" : "", 
+"guid" : ""
+}, 
+"extraPaths" : []
+}}
