@@ -15,11 +15,11 @@ D:/4_Projects/2_GameDev/1_Unity/Walls Asset Pack
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49737
+58317
 Successfully changed project path to: D:/4_Projects/2_GameDev/1_Unity/Walls Asset Pack
 D:/4_Projects/2_GameDev/1_Unity/Walls Asset Pack
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 230.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.41f1 (7c19dc9acfda)
 [Subsystems] Discovering subsystems at path D:/3_Softwares/UntiyEditor/2020.3.41f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'D:/3_Softwares/UntiyEditor/2020.3.41f1/Editor/Data/Managed'
 Mono path[1] = 'D:/3_Softwares/UntiyEditor/2020.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/3_Softwares/UntiyEditor/2020.3.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/3_Softwares/UntiyEditor/2020.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.321573 seconds.
+Registered in 0.000997 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.227 seconds
+- Completed reload, in  0.605 seconds
 Domain Reload Profiling:
-	ReloadAssembly (8227ms)
-		BeginReloadAssembly (5382ms)
+	ReloadAssembly (605ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1807ms)
-			LoadAssemblies (5382ms)
+		EndReloadAssembly (480ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (857ms)
+			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (370ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (200ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (67ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (171ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002960 seconds.
+Registered in 0.002621 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.619 seconds
+- Completed reload, in  1.147 seconds
 Domain Reload Profiling:
-	ReloadAssembly (9625ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (9372ms)
-			LoadAssemblies (5152ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (955ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1860ms)
+			SetupTypeCache (295ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (2168ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (396ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (798ms)
-				ProcessInitializeOnLoadMethodAttributes (1185ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.4 MB.
+Unloading 3333 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.3 MB.
+System memory in use after: 100.0 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3688.
-Total: 3.938700 ms (FindLiveObjects: 0.276200 ms CreateObjectMapping: 0.117600 ms MarkObjects: 3.461300 ms  DeleteObjects: 0.082200 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3782.
+Total: 5.372900 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.089200 ms MarkObjects: 4.932700 ms  DeleteObjects: 0.085900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,588 +132,252 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Renderers/Global Volume Profile.asset
-  artifactKey: Guid(753969d707b18d9449f5e2b61b835454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Renderers/Global Volume Profile.asset using Guid(753969d707b18d9449f5e2b61b835454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bda048dafdc3393f57bb983fea8523') in 0.081751 seconds 
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Foreground.png
+  artifactKey: Guid(85910a6d7804c6a469e6dbb758ce42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Foreground.png using Guid(85910a6d7804c6a469e6dbb758ce42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcdbbd781acd7fdaf1dcacfdadf47ab') in 0.204743 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.573598 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/ForwardRendererData.asset
-  artifactKey: Guid(618d298269e66c542b306de85db1faea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/ForwardRendererData.asset using Guid(618d298269e66c542b306de85db1faea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b692d1c1150203f2be1239effbe5bdb7') in 0.094979 seconds 
+  Time since last request: 0.000301 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Background.png
+  artifactKey: Guid(6bd5a01ec4672fa4285d5531a24d794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Background.png using Guid(6bd5a01ec4672fa4285d5531a24d794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc711c94e1432d987e16bcac4aa9a3b') in 0.032187 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset
-  artifactKey: Guid(41439944d30ece34e96484bdb6645b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset using Guid(41439944d30ece34e96484bdb6645b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d7d8e88e62ddab67f87fa255364f47') in 0.014011 seconds 
+  Time since last request: 0.000343 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Sky.png
+  artifactKey: Guid(e0d19b0a73e076c47955f5b4ac41dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Sky.png using Guid(e0d19b0a73e076c47955f5b4ac41dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6d8b2d26c3130aca56db827423d694') in 0.017291 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineEditorResources.asset
-  artifactKey: Guid(a3d8d823eedde654bb4c11a1cfaf1abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineEditorResources.asset using Guid(a3d8d823eedde654bb4c11a1cfaf1abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07149ff11b9aa9ee6fa237453573a551') in 0.221323 seconds 
+  Time since last request: 0.000391 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Midground.png
+  artifactKey: Guid(31544baa9dd460e468e9356ac8e008be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Midground.png using Guid(31544baa9dd460e468e9356ac8e008be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d8248ab5d2f4838d39971adc00d248') in 0.033855 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/XRSystemData.asset
-  artifactKey: Guid(60e1133243b97e347b653163a8c01b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/XRSystemData.asset using Guid(60e1133243b97e347b653163a8c01b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb673792f718e4286c1b63fbbabcd5c9') in 0.029568 seconds 
+  Time since last request: 25.968243 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Background.png
+  artifactKey: Guid(6bd5a01ec4672fa4285d5531a24d794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Background.png using Guid(6bd5a01ec4672fa4285d5531a24d794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccfa4426e87fa8f7b44e3c1b32ec992') in 0.071334 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.954132 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Renderers
-  artifactKey: Guid(1d7c17f57cce7e0469289c2a2b33b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Renderers using Guid(1d7c17f57cce7e0469289c2a2b33b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656fda2cdf38d041912ffb277b9269d2') in 0.049251 seconds 
+  Time since last request: 0.000294 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Foreground.png
+  artifactKey: Guid(85910a6d7804c6a469e6dbb758ce42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Foreground.png using Guid(85910a6d7804c6a469e6dbb758ce42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31382cc2dd303109f71ef528f06a433d') in 0.037734 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.976996 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level
-  artifactKey: Guid(56e4a466943ee944297199e99f7c1c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level using Guid(56e4a466943ee944297199e99f7c1c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cc99c117c9413c8ffe8049407e361e') in 0.031586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.506015 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs
-  artifactKey: Guid(f33e248714e421840805dfe5cf2c1c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs using Guid(f33e248714e421840805dfe5cf2c1c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198650c377aa2af379fd0a42f01ac629') in 0.024993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.910083 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites
-  artifactKey: Guid(c55cea5cdaacecc4ab3fc8693f03f2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites using Guid(c55cea5cdaacecc4ab3fc8693f03f2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afae2c49c030f52241815f8a7788a5b') in 0.012549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 199.719449 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Materials
-  artifactKey: Guid(a7901e51a67399c44b33629638f9a1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Materials using Guid(a7901e51a67399c44b33629638f9a1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f54ac48f66000438fc111fd164f8841') in 0.032701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.327335 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level
-  artifactKey: Guid(b7bd793fedcbd664d9e590df08e7e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level using Guid(b7bd793fedcbd664d9e590df08e7e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356db7a727dffca14573cc0cac156390') in 0.079568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.594624 seconds.
-  path: Assets/Sprites/Forest Level/Parallax Backgrounds/Forest Background.png
-  artifactKey: Guid(1506e509e6d864b42b86d2d2f08c28f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Forest Level/Parallax Backgrounds/Forest Background.png using Guid(1506e509e6d864b42b86d2d2f08c28f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ea791838b5ca5fa02c761b2b297ac6') in 0.418557 seconds 
+  Time since last request: 0.000289 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Sky.png
+  artifactKey: Guid(e0d19b0a73e076c47955f5b4ac41dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Sky.png using Guid(e0d19b0a73e076c47955f5b4ac41dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc3c05e848b052817645fc4c6608673') in 0.030383 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000272 seconds.
-  path: Assets/Sprites/Forest Level/Parallax Backgrounds/Forest Sky.png
-  artifactKey: Guid(55f15de6baf7c4641a5757c8622502d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Forest Level/Parallax Backgrounds/Forest Sky.png using Guid(55f15de6baf7c4641a5757c8622502d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756490a730cd3145ea4cbbbf9ea7c96b') in 0.158286 seconds 
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Midground.png
+  artifactKey: Guid(31544baa9dd460e468e9356ac8e008be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Parallax Backgrounds/Midground.png using Guid(31544baa9dd460e468e9356ac8e008be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0e0a2e4ee3301a099d63cb9c2bcb59') in 0.034224 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Sprites/Forest Level/Parallax Backgrounds/Forest MiddleGround.png
-  artifactKey: Guid(81434e5d9d5666e4980e51485b3fe113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Forest Level/Parallax Backgrounds/Forest MiddleGround.png using Guid(81434e5d9d5666e4980e51485b3fe113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eca52fb48d5e5395099e5187f42f4d2') in 0.151967 seconds 
+  Time since last request: 1578.719979 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Forest Particle.png
+  artifactKey: Guid(0c44b19cb2bdb3d4a9a12ae87b426c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Forest Particle.png using Guid(0c44b19cb2bdb3d4a9a12ae87b426c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cff9196ead98e747d448261395002f') in 0.030808 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Sprites/Forest Level/Parallax Backgrounds/Forest ForeGround.png
-  artifactKey: Guid(36fee4a08c206d446b5b493ba74e220f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Forest Level/Parallax Backgrounds/Forest ForeGround.png using Guid(36fee4a08c206d446b5b493ba74e220f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803c268bfc1da86959067b35bd6fe839') in 0.120653 seconds 
+  Time since last request: 72.617820 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/DirtBlock.png
+  artifactKey: Guid(664c0cedb0b6ff34fbcbf3928f273d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/DirtBlock.png using Guid(664c0cedb0b6ff34fbcbf3928f273d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60aed3a160288c36a38c5742deab3b7e') in 0.021963 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.691227 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals
-  artifactKey: Guid(77141cbaf178dc54aaf486f2b3abcc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals using Guid(77141cbaf178dc54aaf486f2b3abcc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de46bac7b486d7fd5abcec07089483c') in 0.014007 seconds 
+  Time since last request: 0.000226 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Grass.png
+  artifactKey: Guid(51a9b7c71980e06409543ac2417ccea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Grass.png using Guid(51a9b7c71980e06409543ac2417ccea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8718d849109095fa88e3a8d05f60a8') in 0.017404 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.371995 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Sprites
-  artifactKey: Guid(f597fce63dbd65046a394d6a1c499d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Sprites using Guid(f597fce63dbd65046a394d6a1c499d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22faf9d6de24002579d9b5e9c91a8379') in 0.001753 seconds 
+  Time since last request: 0.000266 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log1.png
+  artifactKey: Guid(fb2976d1213a7f547aaf817291d4c2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log1.png using Guid(fb2976d1213a7f547aaf817291d4c2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb18ae23652dc0499fbb8b1d61b1943') in 0.027831 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.957475 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Scripts
-  artifactKey: Guid(7adf0e63dacf97c42a571527b7b331b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Scripts using Guid(7adf0e63dacf97c42a571527b7b331b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1619c2545e2f84505bef55f3fc80dc52') in 0.029147 seconds 
+  Time since last request: 0.000343 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log4.png
+  artifactKey: Guid(79d71d6aca495cc48afd6520ef61b4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log4.png using Guid(79d71d6aca495cc48afd6520ef61b4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e588f384e83f2f677a6c24a1dde784') in 0.034849 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.938352 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Materials
-  artifactKey: Guid(ad49d470e51850145b5afb4ad318960f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Materials using Guid(ad49d470e51850145b5afb4ad318960f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463801667dea78762ace1cd5bee0a458') in 0.001687 seconds 
+  Time since last request: 0.000287 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log2.png
+  artifactKey: Guid(844635417bc56b04589091d30bf08629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log2.png using Guid(844635417bc56b04589091d30bf08629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ae0a06fb038f6ebc172aea1d20bda1') in 0.016664 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 99.464782 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs
-  artifactKey: Guid(2f5c7c2b2ed5c77449775097e359506b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs using Guid(2f5c7c2b2ed5c77449775097e359506b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e115034aaf29a1a729eda3720fd981d') in 0.002169 seconds 
+  Time since last request: 0.000259 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Forest Ball.png
+  artifactKey: Guid(5201433b656a9bb4c97d6747a382a6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Forest Ball.png using Guid(5201433b656a9bb4c97d6747a382a6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d9c3caa4068056119ceab77a17a341') in 0.026387 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.481892 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Sprites
-  artifactKey: Guid(161a8b2e0e0245b42984d5069b4a55a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Sprites using Guid(161a8b2e0e0245b42984d5069b4a55a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa74eb4af7a378eb469661b8e83fbb7d') in 0.001976 seconds 
+  Time since last request: 0.000267 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Forest Ball Mask.png
+  artifactKey: Guid(9f5abcffbc9732945969c41286b00996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Forest Ball Mask.png using Guid(9f5abcffbc9732945969c41286b00996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5816809bcd1961e66a5cfc24ba498ae0') in 0.015689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.845791 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Materials
-  artifactKey: Guid(e396b3344abca0a4b84bcd96bd7491f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Materials using Guid(e396b3344abca0a4b84bcd96bd7491f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b76954a16cd4ea4a0d6935fd3414215') in 0.002444 seconds 
+  Time since last request: 0.000211 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log3.png
+  artifactKey: Guid(43ebee995c78c3f42b8cc16972804412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log3.png using Guid(43ebee995c78c3f42b8cc16972804412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a05159b07f364d6a76cbaa84456afb') in 0.029177 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.444411 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Prefabs
-  artifactKey: Guid(36110e86dedca904385a6e877e1b6366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Prefabs using Guid(36110e86dedca904385a6e877e1b6366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73f4a8e089023835bfab6789105eea2') in 0.002044 seconds 
+  Time since last request: 20.373501 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log1.png
+  artifactKey: Guid(fb2976d1213a7f547aaf817291d4c2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log1.png using Guid(fb2976d1213a7f547aaf817291d4c2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fd9a97c96bf34bef3d4f1fa4d4e126') in 0.041456 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 580.955571 seconds.
-  path: Assets/Shaders/GrassSway.shadergraph
-  artifactKey: Guid(22d51b10f5740b94a83a2af1ec504496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/GrassSway.shadergraph using Guid(22d51b10f5740b94a83a2af1ec504496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a019406aec794e2e982a150a94b963') in 0.013876 seconds 
+  Time since last request: 0.000263 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log4.png
+  artifactKey: Guid(79d71d6aca495cc48afd6520ef61b4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log4.png using Guid(79d71d6aca495cc48afd6520ef61b4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e773d36b6d862256292f5c8a221b32d') in 0.036402 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.058312 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Materials/Fog.shadergraph
-  artifactKey: Guid(517ec6a6366bfb141960398398f88a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Materials/Fog.shadergraph using Guid(517ec6a6366bfb141960398398f88a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f814da3025c7ff16bd0a63d191ca22a') in 0.029648 seconds 
+  Time since last request: 0.000373 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log2.png
+  artifactKey: Guid(844635417bc56b04589091d30bf08629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log2.png using Guid(844635417bc56b04589091d30bf08629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b633416c235c0a9e3398859fdaab5956') in 0.036687 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.745756 seconds.
-  path: Assets/Scripts/Shader Controllers/BallGlowController.cs
-  artifactKey: Guid(5612bfbba7f920f4dbd519261f48bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Shader Controllers/BallGlowController.cs using Guid(5612bfbba7f920f4dbd519261f48bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95b41fa55510a0708916c48e4b48e49') in 0.054381 seconds 
+  Time since last request: 0.000278 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log3.png
+  artifactKey: Guid(43ebee995c78c3f42b8cc16972804412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Log3.png using Guid(43ebee995c78c3f42b8cc16972804412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0297b6f753f5d4bfb0d9f028acb6ed1d') in 0.040729 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 417.607001 seconds.
-  path: Assets/Prefabs/Victorian Level/ParallaxBackground.prefab
-  artifactKey: Guid(e0972006749b04e449bd55d7ec0217bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Victorian Level/ParallaxBackground.prefab using Guid(e0972006749b04e449bd55d7ec0217bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e07ab2ac2f445dab1ab87927f753218') in 1.186074 seconds 
+  Time since last request: 62.584322 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Forest Ball Mask.png
+  artifactKey: Guid(9f5abcffbc9732945969c41286b00996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Forest Ball Mask.png using Guid(9f5abcffbc9732945969c41286b00996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9976a745d4f85a3a2ffde221bc4021c6') in 0.036653 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.459510 seconds.
-  path: Assets/Prefabs/Forest Level/Ball.prefab
+  Time since last request: 0.000314 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Grass.png
+  artifactKey: Guid(51a9b7c71980e06409543ac2417ccea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Grass.png using Guid(51a9b7c71980e06409543ac2417ccea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f389fb20dc6f83e729dbb0f27e2167') in 0.022054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Forest Ball.png
+  artifactKey: Guid(5201433b656a9bb4c97d6747a382a6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Forest Ball.png using Guid(5201433b656a9bb4c97d6747a382a6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f975636913700e9456d736abf04ef9') in 0.035276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.506443 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/GrassBlock.prefab
+  artifactKey: Guid(7bc7160d321fd3548a9f002bf219a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/GrassBlock.prefab using Guid(7bc7160d321fd3548a9f002bf219a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bee98972821e25f76afd1c452e850f') in 0.121677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.865395 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/GrassBlock.prefab
+  artifactKey: Guid(7bc7160d321fd3548a9f002bf219a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/GrassBlock.prefab using Guid(7bc7160d321fd3548a9f002bf219a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7951c0712fa8d9ca40f9c8ba8539e6da') in 0.602934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.770423 seconds.
+  path: Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/publisher_portal_white.png
+  artifactKey: Guid(003e2710f9b29d94c87632022a3c7c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.asset-store-tools/Editor/Uploader/Icons/publisher_portal_white.png using Guid(003e2710f9b29d94c87632022a3c7c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d95dbc33c9b06c3005781abcd854180') in 0.242935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.112769 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Dirt Block.png
+  artifactKey: Guid(664c0cedb0b6ff34fbcbf3928f273d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Dirt Block.png using Guid(664c0cedb0b6ff34fbcbf3928f273d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5b9047d9c8b8c5348433f57c2604e7') in 0.021435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.862216 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Dirt Block.png
+  artifactKey: Guid(664c0cedb0b6ff34fbcbf3928f273d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/Dirt Block.png using Guid(664c0cedb0b6ff34fbcbf3928f273d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1564ad260445e59cab53201601cf8569') in 0.032204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 193.496224 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/Ball.prefab
   artifactKey: Guid(2fa99d05f3f1d97448057282033be739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Forest Level/Ball.prefab using Guid(2fa99d05f3f1d97448057282033be739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d96bbd7d2b02b5656b45be77d31a435') in 0.965074 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002406 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.283 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1283ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1093ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (363ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.6 MB.
-System memory in use after: 146.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3740.
-Total: 4.349200 ms (FindLiveObjects: 0.274900 ms CreateObjectMapping: 0.088800 ms MarkObjects: 3.949700 ms  DeleteObjects: 0.034700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/Ball.prefab using Guid(2fa99d05f3f1d97448057282033be739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140f2f7679883f219c41140b926398c2') in 0.562504 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4876.610055 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Materials/GrassController.cs
-  artifactKey: Guid(2b8ba468adbe51045abec93313a4682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Materials/GrassController.cs using Guid(2b8ba468adbe51045abec93313a4682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72341398bfb87d70f9a442aa34e41f45') in 0.013759 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002328 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.190 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1191ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1023ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (338ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (385ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3743.
-Total: 4.495000 ms (FindLiveObjects: 0.293300 ms CreateObjectMapping: 0.085800 ms MarkObjects: 4.089000 ms  DeleteObjects: 0.025700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 14.724583 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/GrassBlock.prefab
+  artifactKey: Guid(7bc7160d321fd3548a9f002bf219a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/GrassBlock.prefab using Guid(7bc7160d321fd3548a9f002bf219a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59320533a345d2f22d331dede096e79') in 0.050943 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.239818 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Materials/GrassSwayController.cs
-  artifactKey: Guid(2b8ba468adbe51045abec93313a4682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Materials/GrassSwayController.cs using Guid(2b8ba468adbe51045abec93313a4682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc9b0dcd5ab08e6df342e40ffe599dd') in 0.018514 seconds 
+  Time since last request: 768.097461 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/GrassBlock.prefab
+  artifactKey: Guid(7bc7160d321fd3548a9f002bf219a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/GrassBlock.prefab using Guid(7bc7160d321fd3548a9f002bf219a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71127681b76859f444c15956b55768d') in 0.341267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/ParallaxBackground.prefab
+  artifactKey: Guid(94289db81029e4845a45df19fc7f464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/ParallaxBackground.prefab using Guid(94289db81029e4845a45df19fc7f464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e535b0df566b4abc4975053ff07607c3') in 0.114435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.724921 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Materials/LightBug.mat
+  artifactKey: Guid(6142b785c939d4a4d8d75a2fbb9b66b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Materials/LightBug.mat using Guid(6142b785c939d4a4d8d75a2fbb9b66b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55047e82e461870b8505caffd53ecb7') in 0.520257 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002405 seconds.
+Registered in 0.002770 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.228 seconds
+- Completed reload, in  1.586 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1229ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1586ms)
+		BeginReloadAssembly (331ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1041ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (230ms)
+		EndReloadAssembly (1201ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (310ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (376ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (514ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (230ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3746.
-Total: 4.090100 ms (FindLiveObjects: 0.465100 ms CreateObjectMapping: 0.243800 ms MarkObjects: 3.352900 ms  DeleteObjects: 0.026700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 135.386072 seconds.
-  path: Assets/Scripts/CameraFollow.cs
-  artifactKey: Guid(0efd23b17dd3ea34395f2827740fed0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraFollow.cs using Guid(0efd23b17dd3ea34395f2827740fed0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6513187185cb03513306294f93434c') in 0.040522 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002450 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.827 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1828ms)
-		BeginReloadAssembly (284ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1488ms)
-			LoadAssemblies (286ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (541ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (416ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (169ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3749.
-Total: 4.121500 ms (FindLiveObjects: 0.283000 ms CreateObjectMapping: 0.086200 ms MarkObjects: 3.722800 ms  DeleteObjects: 0.028500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002712 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.152 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1153ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (980ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (379ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (247ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (393ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 147.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3752.
-Total: 4.238700 ms (FindLiveObjects: 0.384900 ms CreateObjectMapping: 0.216200 ms MarkObjects: 3.610600 ms  DeleteObjects: 0.025600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 296.408854 seconds.
-  path: Assets/Scripts/Shader Controllers/GlowController.cs
-  artifactKey: Guid(5612bfbba7f920f4dbd519261f48bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Shader Controllers/GlowController.cs using Guid(5612bfbba7f920f4dbd519261f48bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e47d0e2bbea8732987769831100b75') in 0.222957 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002924 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.085 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3086ms)
-		BeginReloadAssembly (556ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (2469ms)
-			LoadAssemblies (1403ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (492ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (118ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (54ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 147.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3755.
-Total: 4.276600 ms (FindLiveObjects: 0.380900 ms CreateObjectMapping: 0.185500 ms MarkObjects: 3.682200 ms  DeleteObjects: 0.025900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 311.549106 seconds.
-  path: Assets/Scripts/Shader Controllers/GlowController.cs
-  artifactKey: Guid(5612bfbba7f920f4dbd519261f48bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Shader Controllers/GlowController.cs using Guid(5612bfbba7f920f4dbd519261f48bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85828d50c1a8567e1f31cd6ea5aa171') in 0.006516 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002386 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.410 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1410ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1245ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (312ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (365ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 147.0 MB.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.9 MB.
+System memory in use after: 150.2 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3758.
-Total: 3.613900 ms (FindLiveObjects: 0.276400 ms CreateObjectMapping: 0.098200 ms MarkObjects: 3.212900 ms  DeleteObjects: 0.025500 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3871.
+Total: 3.726300 ms (FindLiveObjects: 0.337100 ms CreateObjectMapping: 0.091900 ms MarkObjects: 3.264800 ms  DeleteObjects: 0.031300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -728,118 +392,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.749854 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Ball.prefab
-  artifactKey: Guid(2fa99d05f3f1d97448057282033be739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Ball.prefab using Guid(2fa99d05f3f1d97448057282033be739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8e6d1f3c88f9fc4215b1d77e4527f6') in 1.067009 seconds 
+  Time since last request: 5425.583474 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Parallax Background.prefab
+  artifactKey: Guid(5d009e10b0ab36244a9c489b36829971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Parallax Background.prefab using Guid(5d009e10b0ab36244a9c489b36829971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795fbab59326d9b293e71b3a51fb9bd4') in 0.451864 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/GrassBlock.prefab
-  artifactKey: Guid(7bc7160d321fd3548a9f002bf219a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/GrassBlock.prefab using Guid(7bc7160d321fd3548a9f002bf219a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aa7c47c7a45eb5dfd6b4f4c87f16c4') in 0.265794 seconds 
+  Time since last request: 59.697396 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Log1.prefab
+  artifactKey: Guid(4ec98548050007246b1f773893dd4a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Log1.prefab using Guid(4ec98548050007246b1f773893dd4a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccbde71b9a977d0816423912c8642dc') in 0.019522 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003326 seconds.
+Registered in 0.002517 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
+- Completed reload, in  1.072 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1221ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1006ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (310ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (381ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (257ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.9 MB.
-System memory in use after: 147.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3797.
-Total: 3.617500 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.083700 ms MarkObjects: 3.232600 ms  DeleteObjects: 0.028500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002395 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.239 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1240ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (1073ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1060ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (894ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (359ms)
+			SetupTypeCache (289ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (337ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (328ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.9 MB.
-System memory in use after: 147.1 MB.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 150.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3800.
-Total: 4.428800 ms (FindLiveObjects: 0.459700 ms CreateObjectMapping: 0.135000 ms MarkObjects: 3.794600 ms  DeleteObjects: 0.037700 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3910.
+Total: 4.142300 ms (FindLiveObjects: 0.377900 ms CreateObjectMapping: 0.166200 ms MarkObjects: 3.568200 ms  DeleteObjects: 0.028300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -854,673 +461,154 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 148.891355 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack
-  artifactKey: Guid(0491719570c6bae4db127dd646328942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack using Guid(0491719570c6bae4db127dd646328942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b02e0c1878bad43926769064e9a8a66') in 0.018853 seconds 
+  Time since last request: 78.628717 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Log2.prefab
+  artifactKey: Guid(5074b274b35cded4dad23ea1ba4a6ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Log2.prefab using Guid(5074b274b35cded4dad23ea1ba4a6ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c25e59eecda14d80ec0cce90473660') in 0.170989 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.992340 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Sample.unity
-  artifactKey: Guid(cbee29bbb08a0644988ffac825c9c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Sample.unity using Guid(cbee29bbb08a0644988ffac825c9c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c640a65d8c4a0e6794660f8d12f2bc69') in 0.015686 seconds 
+  Time since last request: 95.570877 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Log3.prefab
+  artifactKey: Guid(3085b2c057511dd47a7796ca29086280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Log3.prefab using Guid(3085b2c057511dd47a7796ca29086280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2330b034406039efb7ee35bd12579b45') in 0.118610 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 101.450770 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/TestLevel.png
-  artifactKey: Guid(22cbf906b6c529042a1a04843a80ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Sprites/TestLevel.png using Guid(22cbf906b6c529042a1a04843a80ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e2dc39ab1d9c5410ee1f7d3b12dec9') in 0.083673 seconds 
+  Time since last request: 78.776888 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Log4.prefab
+  artifactKey: Guid(b13b40d2ebc3b7347bd9db64732a7bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Log4.prefab using Guid(b13b40d2ebc3b7347bd9db64732a7bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7244e060387e6ede8db9209013fa47b1') in 0.016065 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 947.207141 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae698bef0125260d69e5acb51e0a959') in 0.429198 seconds 
+  Time since last request: 130.995382 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Forest Launcher.prefab
+  artifactKey: Guid(478c1f968f6f27246a3eb4d149e006c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Forest Launcher.prefab using Guid(478c1f968f6f27246a3eb4d149e006c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2ed7f6c1ff1c3232efa286480a4a40') in 0.041460 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.241628 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a53b4363e2622b52d168ec22a346455') in 0.009479 seconds 
+  Time since last request: 404.992095 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Sprites/LauncherCanon.png
+  artifactKey: Guid(0b76e8f32be073f4f967ef8fa4ec84cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Sprites/LauncherCanon.png using Guid(0b76e8f32be073f4f967ef8fa4ec84cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4cad67748f779c0f9f5276029bc457') in 0.030820 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.680080 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f95361eb02554130270dd36b9c39de9') in 0.012632 seconds 
+  Time since last request: 18.040315 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Sprites/LauncherCanon.png
+  artifactKey: Guid(0b76e8f32be073f4f967ef8fa4ec84cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Sprites/LauncherCanon.png using Guid(0b76e8f32be073f4f967ef8fa4ec84cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa82846052231bc5255ed1999221b1f6') in 0.108123 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.805661 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd213f4dc331a714adb675e43cff32e9') in 0.017242 seconds 
+  Time since last request: 888.316061 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Prefabs/BrickWall.prefab
+  artifactKey: Guid(c604248ea3965484c9204b25e12c0b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Prefabs/BrickWall.prefab using Guid(c604248ea3965484c9204b25e12c0b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6893e94e504b72e7c566142c78542da') in 0.067276 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.715799 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73dedfc383635ba327d75201578b906') in 0.012597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.354396 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de2d0fae5b956c7a20d81a02aeba729') in 0.016078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.592753 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c9f6e6467a5266ea0ade8a3d10cd9f') in 0.009244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.285324 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef3557814edf719298c84ae232de242') in 0.010067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.770737 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22479c018d7433a6273c4b3c31e4a855') in 0.040229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.525110 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab46b5acadeeb989b6c6961fed037c9e') in 0.010724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.929753 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2eb8829bb7c28324ca858936821ba52') in 0.030147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.080945 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2a18918884cc1124ef902472d2b37f') in 0.013383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.036825 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef577b7c3231cbbc4b6668d9ac2ac8a') in 0.037029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.075286 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6466cfa62e0679a9396905eda4fa1cf3') in 0.009199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.021197 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db36562d5fa085e16b328caf2332d6cb') in 0.076619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.017219 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05b21f518248666ca1c0ecf34e0b553') in 0.017807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.913988 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff68858afd55532e0ce4fbb65fa4845e') in 0.040807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.184291 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc9f6b0bba4660faeec7cacce8fa054') in 0.014696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.999142 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830ba29cf2f30b763cfc0ccb442bc4db') in 0.036571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.145679 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aad297d58c437341dcf94cd3876df28') in 0.010826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.479095 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd08c23e1c3f247afee22e9de8b1402') in 0.009884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.465747 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd93db969f83471e93e0d25f37ff05a7') in 0.011549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.909070 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e240af8b4bb4538ffa09223e294238') in 0.027703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.140862 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeec51ca5fc84312d10ad9e76955efa7') in 0.009682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.117528 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8ce7ae77c314f0f37bb792a45f0553') in 0.017069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.075640 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5410d897ccdb9b05397f8bd196a35240') in 0.011291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.400183 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a028d6ef32d03962a9126375d917683') in 0.030728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.928297 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30efb260d259d4bbea6dc027140f2723') in 0.009588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.030384 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066138456c30145707e84e58334935cc') in 0.035093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.832478 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e9145f70d6ccefa4de8bcbd0522317') in 0.014194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.299208 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50317739801dc2c14772741afbabb284') in 0.012663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.456963 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf249c1acbb708b1af65e5c1bd5711f') in 0.010299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.226152 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafa936d28666c3ae4bcd33eeed76181') in 0.031397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.422233 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51d65b38adc1d6492811e0bcac90e3c') in 0.012944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.508001 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e54e79e11b5fa20c3ca111d0f2deb54') in 0.015676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.989890 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc909d8eaa43df240568216d0d65d64') in 0.013285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.464476 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a70dd3669cd07d1e90737862b75f8d9') in 0.036136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.704471 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef32a39817ea4d03974ed6aff5a0870') in 0.010304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.868250 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a363afb46fbd413313fcf9e043a621e7') in 0.037077 seconds 
+  Time since last request: 12.124457 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/LauncherCanon.prefab
+  artifactKey: Guid(a9ae848269c14a84c8216a1c37778bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/LauncherCanon.prefab using Guid(a9ae848269c14a84c8216a1c37778bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1933e7909466ad73752677df59f7c9') in 0.074907 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002423 seconds.
+Registered in 0.002526 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.147 seconds
+- Completed reload, in  4.124 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4147ms)
-		BeginReloadAssembly (1068ms)
+	ReloadAssembly (4125ms)
+		BeginReloadAssembly (289ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (3024ms)
-			LoadAssemblies (2377ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (3783ms)
+			LoadAssemblies (2598ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
+			SetupTypeCache (287ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (451ms)
+			SetupLoadedEditorAssemblies (489ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (86ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (131ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.0 MB.
-System memory in use after: 147.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3839.
-Total: 5.904800 ms (FindLiveObjects: 0.880600 ms CreateObjectMapping: 0.521900 ms MarkObjects: 4.472500 ms  DeleteObjects: 0.028500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002519 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.277 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1277ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1103ms)
-			LoadAssemblies (136ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (422ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (148ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.0 MB.
-System memory in use after: 147.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3842.
-Total: 3.843900 ms (FindLiveObjects: 0.302100 ms CreateObjectMapping: 0.120800 ms MarkObjects: 3.393200 ms  DeleteObjects: 0.026600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002700 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.164 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1164ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (962ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (343ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.0 MB.
-System memory in use after: 147.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3845.
-Total: 4.219300 ms (FindLiveObjects: 0.279000 ms CreateObjectMapping: 0.086500 ms MarkObjects: 3.824800 ms  DeleteObjects: 0.027700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002422 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.424 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1425ms)
-		BeginReloadAssembly (314ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1045ms)
-			LoadAssemblies (302ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (323ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (364ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.1 MB.
-System memory in use after: 147.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3848.
-Total: 4.586800 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.162500 ms MarkObjects: 4.050600 ms  DeleteObjects: 0.026500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 6748.701228 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab
-  artifactKey: Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Prefabs/OnCollideParticle.prefab using Guid(5ce372f48378ec449875ce772b6ba91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf007ba5e7d6ebae23bee37e80b7b80') in 0.512342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.369751 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Ball.prefab
-  artifactKey: Guid(2fa99d05f3f1d97448057282033be739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Ball.prefab using Guid(2fa99d05f3f1d97448057282033be739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bddf90b93a56e4b7052a49f412abe4ef') in 0.159040 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002799 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.216 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1217ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1038ms)
-			LoadAssemblies (132ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (320ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (375ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.2 MB.
-System memory in use after: 147.4 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3887.
-Total: 4.147900 ms (FindLiveObjects: 0.309100 ms CreateObjectMapping: 0.087900 ms MarkObjects: 3.724700 ms  DeleteObjects: 0.025200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 54.394136 seconds.
-  path: Assets/Misc
-  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Misc using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e144d2a70dbb32bd5b9ae4fa16e9575') in 0.016963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.724544 seconds.
-  path: Assets/Lenidev
-  artifactKey: Guid(7c624e861226d81439ed57edae1c6058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev using Guid(7c624e861226d81439ed57edae1c6058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9f377542eca3e372e71dff8f9baf7e') in 0.012665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.686607 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Sample.unity
-  artifactKey: Guid(cbee29bbb08a0644988ffac825c9c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Sample.unity using Guid(cbee29bbb08a0644988ffac825c9c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921f427a3f3833e4730eb45ead2b11c5') in 0.013298 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003791 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.228 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1229ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1050ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (342ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (389ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.2 MB.
-System memory in use after: 147.5 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3890.
-Total: 3.945400 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.081200 ms MarkObjects: 3.526800 ms  DeleteObjects: 0.027400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002989 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.197 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2198ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (2015ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (399ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (393ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (264ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.7 MB.
-System memory in use after: 149.9 MB.
+System memory in use before: 150.2 MB.
+System memory in use after: 150.5 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3987.
-Total: 4.026100 ms (FindLiveObjects: 0.311200 ms CreateObjectMapping: 0.144800 ms MarkObjects: 3.542000 ms  DeleteObjects: 0.027000 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3949.
+Total: 4.846100 ms (FindLiveObjects: 0.350200 ms CreateObjectMapping: 0.169900 ms MarkObjects: 4.295800 ms  DeleteObjects: 0.028700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002444 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1176ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1015ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 150.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3952.
+Total: 4.847800 ms (FindLiveObjects: 0.648800 ms CreateObjectMapping: 0.352200 ms MarkObjects: 3.818400 ms  DeleteObjects: 0.026600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1535,37 +623,32 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3989.657092 seconds.
-  path: Packages/com.unity.2d.sprite/package.json
-  artifactKey: Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/package.json using Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739a9e7b1e19b65464d39840c0ab5a08') in 0.293004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 330.064183 seconds.
-  path: Packages/com.unity.2d.psdimporter/package.json
-  artifactKey: Guid(2f948ecb81c850949a2725b1ba265844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.psdimporter/package.json using Guid(2f948ecb81c850949a2725b1ba265844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b79049e4a375edc54fe5e9db418d86') in 0.065842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.123413 seconds.
-  path: Packages/com.unity.2d.psdimporter/README.md
-  artifactKey: Guid(bacef98d5d5167242a24ec99d7304aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.psdimporter/README.md using Guid(bacef98d5d5167242a24ec99d7304aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5ab1996c22164b2dca767ea8b3bee4') in 0.022874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 124.648404 seconds.
+  Time since last request: 409.404327 seconds.
   path: Assets/Lenidev/Walls Game - 2D Asset Pack/Sample.unity
   artifactKey: Guid(cbee29bbb08a0644988ffac825c9c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Sample.unity using Guid(cbee29bbb08a0644988ffac825c9c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6168f234e7c4370afebeba58a85aa9ae') in 0.065717 seconds 
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Sample.unity using Guid(cbee29bbb08a0644988ffac825c9c487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88aea77e85c00ed76f9ad81355e5c1fb') in 0.015689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.023301 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Forests.unity
-  artifactKey: Guid(9db063b602c275741a5a5fb96907fc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Forests.unity using Guid(9db063b602c275741a5a5fb96907fc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53d66988a815ac6dea7d4549db044ac') in 0.043292 seconds 
+  Time since last request: 0.000418 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Futuristic Level/Prefabs/Parallax Background.prefab
+  artifactKey: Guid(64c6c5621a00d214ba4df37a09f0b50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Futuristic Level/Prefabs/Parallax Background.prefab using Guid(64c6c5621a00d214ba4df37a09f0b50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1db533345bd5808da38eab12f0d3a6') in 0.829354 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.680962 seconds.
-  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Victorian.unity
-  artifactKey: Guid(447d6b61afeda244cb9f9692828d0c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Victorian.unity using Guid(447d6b61afeda244cb9f9692828d0c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d06891f2a540f64fb8adfcc7564dd2') in 0.011449 seconds 
+  Time since last request: 0.000427 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Parallax Background.prefab
+  artifactKey: Guid(5d009e10b0ab36244a9c489b36829971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Forest Level/Prefabs/Parallax Background.prefab using Guid(5d009e10b0ab36244a9c489b36829971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b90975b969cf25cf092a97f9c0c661') in 1.093656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Scripts/Parallax.cs
+  artifactKey: Guid(0f16663bdaca17e4bbafdd06870c4138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Globals/Scripts/Parallax.cs using Guid(0f16663bdaca17e4bbafdd06870c4138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416a309018bca61f8390433e72c982d1') in 0.053367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Prefabs/ParallaxBackground.prefab
+  artifactKey: Guid(e0972006749b04e449bd55d7ec0217bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lenidev/Walls Game - 2D Asset Pack/Victorian Level/Prefabs/ParallaxBackground.prefab using Guid(e0972006749b04e449bd55d7ec0217bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5209b9fb8a4e3211ff148af37b86de') in 0.409920 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
