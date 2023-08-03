@@ -56,12 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Lenidev\Walls Game - 2D Asset Pack\Forest Level\Scripts\Slingshot.cs" />
     <Compile Include="Assets\Lenidev\Walls Game - 2D Asset Pack\Globals\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Lenidev\Walls Game - 2D Asset Pack\Globals\Materials\GlowController.cs" />
     <Compile Include="Assets\Lenidev\Walls Game - 2D Asset Pack\Globals\Scripts\Parallax.cs" />
     <Compile Include="Assets\Lenidev\Walls Game - 2D Asset Pack\Forest Level\Materials\GrassSwayController.cs" />
     <Compile Include="Assets\Misc\DrawLine.cs" />
     <Compile Include="Assets\Lenidev\Walls Game - 2D Asset Pack\Globals\Scripts\BallParticleController.cs" />
+    <Compile Include="Assets\Lenidev\Walls Game - 2D Asset Pack\Stone Age Level\Scripts\Catapult.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

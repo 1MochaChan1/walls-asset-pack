@@ -6,12 +6,15 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform targetTransform;
     public float followSpeed=2f;
-
+    public bool autoMove=true;
 
   
     void Update()
     {
-        transform.position = new Vector3(transform.position.x+5f*Time.deltaTime, transform.position.y, -10f);
+        if (autoMove)
+        {
+            transform.position = new Vector3(transform.position.x+5f*Time.deltaTime, transform.position.y, -10f);
+        }
         if(targetTransform != null)
         {
             Vector3 newPos = new Vector3(targetTransform.position.x, transform.position.y, transform.position.z);

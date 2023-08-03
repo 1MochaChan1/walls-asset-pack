@@ -5,7 +5,7 @@
 }, 
 "extraPaths" : [], 
 "dependencies" : true, 
-"dependenciesNames" : ["com.unity.render-pipelines.universal", "com.unity.modules.vehicles"]
+"dependenciesNames" : ["com.unity.render-pipelines.universal"]
 }, "UnitypackageWorkflow" : {
 "mainPath" : {
 "path" : "", 

@@ -1,3 +1,4 @@
 Base path: 'D:/3_Softwares/UntiyEditor/2020.3.41f1/Editor/Data', plugins path 'D:/3_Softwares/UntiyEditor/2020.3.41f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
+Cmd: shutdown
